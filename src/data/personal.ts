@@ -7,7 +7,7 @@ export const personalInfo = {
   location: 'Buenos Aires, Argentina',
   email: 'paulabottale.dev@gmail.com',
   about:
-    "I'm a Full Stack Developer based in Buenos Aires. I recently completed the Full Stack Web Development diploma at UTN, and I'm currently building Ledgr — a multi-tenant SaaS for financial management with JWT authentication, Stripe payments, and an AI financial agent powered by Claude. I focus on writing clean, maintainable code with solid architectural decisions, and on shipping features that actually work in production.",
+    "I'm a Full Stack Developer based in Buenos Aires, Argentina. I recently completed the Full Stack Web Development diploma at UTN (Universidad Tecnologica Nacional), and I'm currently building Ledgr: a multi-tenant SaaS for financial management with JWT authentication, Stripe payments, and an AI financial agent powered by Claude. I focus on writing clean, maintainable code with solid architectural decisions, and on shipping features that actually work in production.",
 };
 
 export const stack: StackCategory[] = [
