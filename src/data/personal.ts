@@ -7,7 +7,7 @@ export const personalInfo = {
   location: 'Buenos Aires, Argentina',
   email: 'paulabottale.dev@gmail.com',
   about:
-    "I'm a Full Stack Developer based in Buenos Aires, Argentina. I recently completed the Full Stack Web Development diploma at UTN (Universidad Tecnologica Nacional), and I'm currently building Ledgr: a multi-tenant SaaS for financial management with JWT authentication, Stripe payments, and an AI financial agent powered by Claude. I focus on writing clean, maintainable code with solid architectural decisions, and on shipping features that actually work in production.",
+    "Full Stack Developer based in Buenos Aires, Argentina. I build modern web applications with React, TypeScript, Node.js, Express, and MongoDB, with a focus on integrating AI into production features.\n\nI work with the Claude API to build LLM-powered workflows that respond to real user data, and prompt engineering is a regular part of how I design those features. Claude and GitHub Copilot are part of my daily workflow — I use them to ship faster while keeping full ownership of every line of code.\n\nEverything I build is oriented around clean architecture, type safety, and writing maintainable, scalable code that stays easy to extend over time. Open to freelance work and full-time roles.",
 };
 
 export const stack: StackCategory[] = [

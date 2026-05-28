@@ -1,3 +1,4 @@
+import { ShieldCheck, ExternalLink } from 'lucide-react';
 import { education } from '../../data/experience';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
 import styles from './Education.module.css';
@@ -24,7 +25,22 @@ export const Education = () => {
                 <h3 className={styles.itemTitle}>{item.title}</h3>
                 <span className={styles.period}>{item.period}</span>
               </div>
+
               <p className={styles.institution}>{item.institution}</p>
+
+              {item.blockchainVerified && item.certificateUrl && (
+                <a
+                  href={item.certificateUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.verifiedBadge}
+                >
+                  <ShieldCheck size={14} />
+                  Blockchain-verified certificate
+                  <ExternalLink size={12} />
+                </a>
+              )}
+
               <p className={styles.description}>{item.description}</p>
             </div>
           ))}

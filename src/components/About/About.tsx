@@ -17,7 +17,9 @@ export const About = () => {
           <h2 className={styles.heading}>About me</h2>
         </div>
 
-        <p className={styles.bio}>{personalInfo.about}</p>
+        <p className={styles.bio} style={{ whiteSpace: 'pre-line' }}>
+          {personalInfo.about}
+        </p>
 
         <div className={styles.stackSection}>
           <h3 className={styles.subheading}>Tech Stack</h3>

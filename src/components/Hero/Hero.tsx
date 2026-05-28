@@ -6,9 +6,9 @@ import styles from './Hero.module.css';
 
 const ROLE_VARIANTS = [
   'Full Stack Developer',
-  'React Developer',
+  'AI-Assisted Developer',
   'API Builder',
-  'TypeScript Enthusiast',
+  'LLM Integration Engineer',
 ];
 
 export const Hero = () => {
@@ -32,7 +32,7 @@ export const Hero = () => {
           Available for freelance work
         </span>
 
-        <h1 className={styles.heading}>Hi, I'm {personalInfo.name}.</h1>
+        <h1 className={styles.heading}>Paula Bottale.</h1>
 
         <p className={styles.role}>
           <span key={roleIndex} className={styles.roleText}>

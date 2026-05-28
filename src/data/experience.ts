@@ -3,6 +3,8 @@ export interface EducationItem {
   title: string;
   period: string;
   description: string;
+  certificateUrl?: string;
+  blockchainVerified?: boolean;
 }
 
 export const education: EducationItem[] = [
@@ -12,5 +14,7 @@ export const education: EducationItem[] = [
     period: 'Nov 2024 — May 2025',
     description:
       'Comprehensive program covering JavaScript fundamentals, React (hooks, routing, controlled forms), Node.js + Express + TypeScript with MVC architecture, MongoDB + Mongoose, REST API design, JWT authentication, and full-stack deployment with Vercel, Render, and MongoDB Atlas.',
+    certificateUrl: 'https://validator.centrodeelearning.com/validator/GlAiDycKBO',
+    blockchainVerified: true,
   },
 ];
