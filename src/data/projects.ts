@@ -4,24 +4,12 @@ export const projects: Project[] = [
   {
     id: 'ledgr',
     title: 'Ledgr',
-    description:
-      'Multi-tenant SaaS for financial management, built from the ground up to scale. Phase 1 is live: JWT authentication with organization-based data isolation, so every record is strictly scoped to its company — the foundation that separates a real SaaS from a standard app. Backend and frontend deployed independently, allowing each to evolve on its own. Up next: financial dashboard with real-time metrics, Stripe payments with webhooks, and an AI financial agent powered by Claude (Anthropic) for natural language reporting and spending pattern detection.',
-    tech: [
-      'React',
-      'TypeScript',
-      'Node.js',
-      'Express',
-      'MongoDB',
-      'JWT',
-      'Tailwind CSS',
-      'Claude AI',
-      'Stripe',
-      'Render',
-      'Vercel',
-    ],
+    description: 'Multi-tenant SaaS for financial management, built from the ground up to scale. Phase 1 is live: full-stack authentication flow with organization-based data isolation — every record strictly scoped to its company, the foundation that separates a real SaaS from a standard app. React frontend connected to a Node.js + Express + MongoDB backend via JWT, with persistent sessions and protected routes. Backend and frontend deployed independently, allowing each to evolve on its own. Up next: financial dashboard with real-time metrics, Stripe payments with webhooks, and an AI financial agent powered by Claude (Anthropic) for natural language reporting and spending pattern detection.',
+    tech: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind CSS', 'Claude AI', 'Stripe', 'Render', 'Vercel'],
+    liveDemo: 'https://ledgr-frontend-nine.vercel.app',
     github: 'https://github.com/paulabottale/ledgr-backend',
-    featured: true,
     status: 'in-development',
+    featured: true,
   },
   {
     id: 'storify',

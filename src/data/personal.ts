@@ -7,7 +7,7 @@ export const personalInfo = {
   location: 'Buenos Aires, Argentina',
   email: 'paulabottale.dev@gmail.com',
   about:
-    "Full Stack Developer based in Buenos Aires, Argentina. I build modern web applications with React, TypeScript, Node.js, Express, and MongoDB, with a focus on integrating AI into production features.\n\nI work with the Claude API to build LLM-powered workflows that respond to real user data, and prompt engineering is a regular part of how I design those features. Claude and GitHub Copilot are part of my daily workflow — I use them to ship faster while keeping full ownership of every line of code.\n\nEverything I build is oriented around clean architecture, type safety, and writing maintainable, scalable code that stays easy to extend over time. Open to freelance work and full-time roles.",
+    "Full Stack Developer based in Buenos Aires. I build modern web applications with React, TypeScript, Node.js, Express, and MongoDB, with a focus on integrating AI into production features.\n\nI work with the Claude API to build LLM-powered workflows that respond to real user data, and prompt engineering is a regular part of how I design those features. Claude and GitHub Copilot are part of my daily workflow — I use them to ship faster while keeping full ownership of every line of code.\n\nEverything I build is oriented around clean architecture, type safety, and writing maintainable, scalable code that stays easy to extend over time. Open to full-time & contract roles.",
 };
 
 export const stack: StackCategory[] = [
@@ -27,6 +27,6 @@ export const stack: StackCategory[] = [
 
 export const socials: SocialLink[] = [
   { name: 'GitHub', url: 'https://github.com/paulabottale' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/paula-bottale' },
+  { name: 'LinkedIn', url: 'www.linkedin.com/in/paulabottale-dev' },
   { name: 'Email', url: 'mailto:paulabottale.dev@gmail.com' },
 ];

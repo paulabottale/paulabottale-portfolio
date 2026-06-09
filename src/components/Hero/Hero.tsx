@@ -6,7 +6,7 @@ import styles from './Hero.module.css';
 
 const ROLE_VARIANTS = [
   'Full Stack Developer',
-  'AI-Assisted Developer',
+  'AI-Integrated Developer',
   'API Builder',
   'LLM Integration Engineer',
 ];
@@ -29,7 +29,7 @@ export const Hero = () => {
       <div className={styles.container}>
         <span className={styles.badge}>
           <span className={styles.dot} />
-          Available for freelance work
+          Available for full-time & contract work.
         </span>
 
         <h1 className={styles.heading}>Paula Bottale.</h1>
