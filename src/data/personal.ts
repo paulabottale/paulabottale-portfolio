@@ -27,6 +27,6 @@ export const stack: StackCategory[] = [
 
 export const socials: SocialLink[] = [
   { name: 'GitHub', url: 'https://github.com/paulabottale' },
-  { name: 'LinkedIn', url: 'www.linkedin.com/in/paulabottale-dev' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/paula-bottale/' },
   { name: 'Email', url: 'mailto:paulabottale.dev@gmail.com' },
 ];
