@@ -20,7 +20,7 @@ export const Contact = () => {
         <span className={styles.label}>Contact</span>
         <h2 className={styles.heading}>Let's build something together.</h2>
         <p className={styles.subheading}>
-          I'm currently available for freelance work and open to new opportunities.
+          I'm currently available for full-time and contract work and open to new opportunities.
           If you have a project in mind or just want to chat, drop me a line.
         </p>
 
