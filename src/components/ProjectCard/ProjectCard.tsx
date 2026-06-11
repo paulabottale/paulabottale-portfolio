@@ -6,10 +6,12 @@ import styles from './ProjectCard.module.css';
 interface ProjectCardProps {
   project: Project;
   isVisible: boolean;
-  delay: number;
+  index: number;
 }
  
-export const ProjectCard = ({ project, isVisible, delay }: ProjectCardProps) => {
+export const ProjectCard = ({ project, isVisible, index }: ProjectCardProps) => {
+  const delay = index * 100;
+ 
   return (
     <article
       className={`${styles.card} ${isVisible ? styles.cardVisible : ''}`}
@@ -42,8 +44,8 @@ export const ProjectCard = ({ project, isVisible, delay }: ProjectCardProps) => 
         </ul>
  
         <ul className={styles.highlights}>
-          {project.highlights.map((highlight, index) => (
-            <li key={index} className={styles.highlight}>
+          {project.highlights.map((highlight, idx) => (
+            <li key={idx} className={styles.highlight}>
               {highlight}
             </li>
           ))}
