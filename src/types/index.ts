@@ -1,12 +1,14 @@
 export interface Project {
   id: string;
   title: string;
-  description: string;
+  tagline: string;
+  highlights: string[];
   tech: string[];
+  featuredImage?: string;
   liveDemo?: string;
   github: string;
-  featured?: boolean;
   status: 'live' | 'in-development';
+  featured: boolean;
 }
 
 export interface SocialLink {
